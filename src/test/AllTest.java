@@ -1,5 +1,30 @@
 package test;
 
-public class AllTest {
+import org.junit.Test;
+import sun.misc.IOUtils;
 
+import java.util.Arrays;
+import java.util.regex.Pattern;
+
+public class AllTest {
+    public void rotate(int[] nums, int k) {
+        int[] save = new int[nums.length];
+        System.out.println(Arrays.toString(nums));
+        for (int i = 0; i < nums.length; i++) {
+            save[(i + k) % nums.length] = nums[i];
+        }
+        System.out.println(Arrays.toString(save));
+    }
+
+    @Test
+    public void test2() {
+        int[] nums = new int[]{1, 2, 3, 4, 5, 6, 7};
+        rotate(nums, 1);
+
+    }
+
+    @Test
+    public void test() {
+
+    }
 }
