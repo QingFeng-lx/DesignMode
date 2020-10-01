@@ -20,30 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/ConcreteBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Builder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/ConcreateBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Director.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Square.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/proxy/study1/Proxy.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/proxy/study1/RealSubject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/proxy/study1/Subject.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/proxy/study1/SubjectTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/test/test2/ListNode.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/DesignMode/test/test2/Solution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Proxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/RealSubject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/SubjectTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2/ListNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/test2/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignMode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignMode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/singleton/MyObject6$MyObjectHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/singleton/MyObject6$MyObjectHandler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/singleton/MyObject6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/singleton/MyObject6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AllTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +74,7 @@
       <recent name="com.qingfeng.proxy.dynamicProxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Client (1)">
+  <component name="RunManager" selected="Application.SubjectTest">
     <configuration name="Client (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.builder.study.Client" />
       <module name="DesignMode" />
@@ -112,12 +101,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.prototype.ShapeTest" />
+    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.test2.Solution" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.prototype.*" />
+          <option name="PATTERN" value="test.test2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.proxy.study1.SubjectTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.proxy.study1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,36 +156,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AllTest.test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AllTest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.ShapeTest" />
-      <item itemvalue="JUnit.AllTest.test" />
-      <item itemvalue="JUnit.AllTest.test2" />
       <item itemvalue="Application.Client" />
       <item itemvalue="Application.Client (1)" />
+      <item itemvalue="Application.Solution" />
+      <item itemvalue="JUnit.AllTest.test" />
+      <item itemvalue="Application.SubjectTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SubjectTest" />
+        <item itemvalue="Application.Solution" />
         <item itemvalue="Application.Client (1)" />
         <item itemvalue="Application.Client" />
         <item itemvalue="JUnit.AllTest.test" />
-        <item itemvalue="JUnit.AllTest.test2" />
-        <item itemvalue="Application.ShapeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,6 +190,8 @@
       <workItem from="1600655274192" duration="605000" />
       <workItem from="1601359865571" duration="3621000" />
       <workItem from="1601426420682" duration="3572000" />
+      <workItem from="1601442511541" duration="650000" />
+      <workItem from="1601515047895" duration="1316000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -235,11 +223,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1601430277464">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1601515409998">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
+    <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1601430277464" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1601515409998" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -256,22 +245,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="112" key="GridCell.Tab.0.bottom" timestamp="1601431337271">
+    <state width="1248" height="134" key="GridCell.Tab.0.bottom" timestamp="1601516379300">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="112" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601431337271" />
-    <state width="1248" height="112" key="GridCell.Tab.0.center" timestamp="1601431337271">
+    <state width="1248" height="134" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601516379300" />
+    <state width="1248" height="134" key="GridCell.Tab.0.center" timestamp="1601516379299">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="112" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601431337271" />
-    <state width="1248" height="112" key="GridCell.Tab.0.left" timestamp="1601431337270">
+    <state width="1248" height="134" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601516379299" />
+    <state width="1248" height="134" key="GridCell.Tab.0.left" timestamp="1601516379298">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="112" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601431337270" />
-    <state width="1248" height="112" key="GridCell.Tab.0.right" timestamp="1601431337271">
+    <state width="1248" height="134" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601516379298" />
+    <state width="1248" height="134" key="GridCell.Tab.0.right" timestamp="1601516379299">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="112" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601431337271" />
+    <state width="1248" height="134" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601516379299" />
     <state width="1248" height="123" key="GridCell.Tab.1.bottom" timestamp="1600234119626">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -296,16 +285,5 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="391" y="291" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/72.27.1294.741@72.27.1294.741" timestamp="1600236807176" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/Client.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
