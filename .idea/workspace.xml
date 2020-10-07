@@ -20,20 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/ObjectAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Target.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/Motor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/MotorAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalMotor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ReadXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Adaptee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapterTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/BridgeTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/RefinedAbstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Bag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/BagManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/HandBag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/ReadXML.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Wallet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Yellow.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/adapter/practice/ReadXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/adapter/practice/ReadXML.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +53,16 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="#JAVA_HOME" />
+  </component>
   <component name="ProjectId" id="1fabXlO5msoDlkUPXAb0my615Kx" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -66,7 +78,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../JavaSE" />
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -75,13 +87,39 @@
       <recent name="com.qingfeng.proxy.dynamicProxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MotorAdapterTest">
-    <configuration name="ClassAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.ClassAdapterTest" />
+  <component name="RunManager" selected="Application.ObjectAdapterTest (1)">
+    <configuration name="BagManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.bridge.practice.BagManage" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.adapter.*" />
+          <option name="PATTERN" value="com.qingfeng.bridge.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BridgeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.bridge.BridgeTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.bridge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClassAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.test1.ClassAdapterTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.adapter.test1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,38 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.object.ObjectAdapterTest" />
+    <configuration name="ObjectAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.test2.ObjectAdapterTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.adapter.object.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="test.test2.Solution" />
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.test2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SubjectTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.proxy.study1.SubjectTest" />
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.proxy.study1.*" />
+          <option name="PATTERN" value="com.qingfeng.adapter.test2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,19 +165,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.SubjectTest" />
-      <item itemvalue="Application.ClassAdapterTest" />
-      <item itemvalue="Application.ObjectAdapterTest" />
       <item itemvalue="Application.MotorAdapterTest" />
+      <item itemvalue="Application.BridgeTest" />
+      <item itemvalue="Application.BagManage" />
+      <item itemvalue="Application.ClassAdapterTest (1)" />
+      <item itemvalue="Application.ObjectAdapterTest (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObjectAdapterTest (1)" />
+        <item itemvalue="Application.ClassAdapterTest (1)" />
+        <item itemvalue="Application.BagManage" />
+        <item itemvalue="Application.BridgeTest" />
         <item itemvalue="Application.MotorAdapterTest" />
-        <item itemvalue="Application.ObjectAdapterTest" />
-        <item itemvalue="Application.ClassAdapterTest" />
-        <item itemvalue="Application.SubjectTest" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -189,6 +201,11 @@
       <workItem from="1601442511541" duration="650000" />
       <workItem from="1601515047895" duration="1316000" />
       <workItem from="1601726037075" duration="1982000" />
+      <workItem from="1601783392509" duration="3020000" />
+      <workItem from="1601794519115" duration="3247000" />
+      <workItem from="1601857539758" duration="2261000" />
+      <workItem from="1601959488461" duration="1154000" />
+      <workItem from="1602033358058" duration="1113000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -220,12 +237,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1601727421529">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602036532513">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1601727421529" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602036532513" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -242,45 +259,49 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="174" key="GridCell.Tab.0.bottom" timestamp="1601728001135">
+    <state width="1248" height="147" key="GridCell.Tab.0.bottom" timestamp="1602036362583">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601728001135" />
-    <state width="1248" height="174" key="GridCell.Tab.0.center" timestamp="1601728001134">
+    <state width="1248" height="147" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602036362583" />
+    <state width="1248" height="147" key="GridCell.Tab.0.center" timestamp="1602036362582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1601728001134" />
-    <state width="1248" height="174" key="GridCell.Tab.0.left" timestamp="1601728001134">
+    <state width="1248" height="147" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602036362582" />
+    <state width="1248" height="147" key="GridCell.Tab.0.left" timestamp="1602036362582">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1601728001134" />
-    <state width="1248" height="174" key="GridCell.Tab.0.right" timestamp="1601728001135">
+    <state width="1248" height="147" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602036362582" />
+    <state width="1248" height="147" key="GridCell.Tab.0.right" timestamp="1602036362583">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="174" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1601728001135" />
-    <state width="1248" height="123" key="GridCell.Tab.1.bottom" timestamp="1600234119626">
+    <state width="1248" height="147" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602036362583" />
+    <state width="1248" height="311" key="GridCell.Tab.1.bottom" timestamp="1601795399016">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="123" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1600234119626" />
-    <state width="1248" height="123" key="GridCell.Tab.1.center" timestamp="1600234119625">
+    <state width="1248" height="311" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
+    <state width="1248" height="311" key="GridCell.Tab.1.center" timestamp="1601795399016">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="123" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1600234119625" />
-    <state width="1248" height="123" key="GridCell.Tab.1.left" timestamp="1600234119625">
+    <state width="1248" height="311" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
+    <state width="1248" height="311" key="GridCell.Tab.1.left" timestamp="1601795399016">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="123" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1600234119625" />
-    <state width="1248" height="123" key="GridCell.Tab.1.right" timestamp="1600234119626">
+    <state width="1248" height="311" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
+    <state width="1248" height="311" key="GridCell.Tab.1.right" timestamp="1601795399016">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="123" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1600234119626" />
-    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1600236850058">
+    <state width="1248" height="311" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601864752685">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1600236850058" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1601864752685" />
     <state x="391" y="291" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600236807176">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="391" y="291" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/72.27.1294.741@72.27.1294.741" timestamp="1600236807176" />
+    <state x="72" y="27" width="1284" height="599" key="new project wizard" timestamp="1601865983833">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="72" y="27" width="1284" height="599" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1601865983833" />
   </component>
 </project>
