@@ -20,22 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Adaptee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapterTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/BridgeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/RefinedAbstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Bag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/BagManage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/HandBag.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/ReadXML.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Yellow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk_64G.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/HuaWeiplus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Iphone8plus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Memory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/NormalSize.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Phone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/PhoneTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/RedColor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Size.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/adapter/practice/ReadXML.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/adapter/practice/ReadXML.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <recent name="com.qingfeng.proxy.dynamicProxy" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectAdapterTest (1)">
+  <component name="RunManager" selected="Application.PhoneTest">
     <configuration name="BagManage" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.bridge.practice.BagManage" />
       <module name="DesignMode" />
@@ -127,19 +122,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MotorAdapterTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.practice.MotorAdapterTest" />
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.adapter.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ObjectAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.test2.ObjectAdapterTest" />
       <module name="DesignMode" />
@@ -153,31 +135,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration name="PhoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.bridge.test1.PhoneTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.bridge.test1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MotorAdapterTest" />
       <item itemvalue="Application.BridgeTest" />
       <item itemvalue="Application.BagManage" />
       <item itemvalue="Application.ClassAdapterTest (1)" />
       <item itemvalue="Application.ObjectAdapterTest (1)" />
+      <item itemvalue="Application.PhoneTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PhoneTest" />
         <item itemvalue="Application.ObjectAdapterTest (1)" />
         <item itemvalue="Application.ClassAdapterTest (1)" />
         <item itemvalue="Application.BagManage" />
         <item itemvalue="Application.BridgeTest" />
-        <item itemvalue="Application.MotorAdapterTest" />
       </list>
     </recent_temporary>
   </component>
@@ -206,6 +203,7 @@
       <workItem from="1601857539758" duration="2261000" />
       <workItem from="1601959488461" duration="1154000" />
       <workItem from="1602033358058" duration="1113000" />
+      <workItem from="1602122416428" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -237,12 +235,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602036532513">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602123932834">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602036532513" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602123932834" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
