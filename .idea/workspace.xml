@@ -20,20 +20,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/Component.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteComponent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/Decorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/DecoratorTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Changer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Girl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Morrigan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/MorriganAensland.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Original.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Succubus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Morrigan1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/Morrigan2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Facade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialtyFacade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/Strategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CookingTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCooking.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCookingStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/Kitchen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/SteamedCrabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/template/TemplateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty21.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty23.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty24.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img1/BraisedCrabs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/img1/SteamedCrabs.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,27 +89,29 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/img1" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.strategy" />
+      <recent name="com.qingfeng.facade.practice" />
+      <recent name="com.qingfeng.facade" />
       <recent name="com.qingfeng.decorator" />
       <recent name="com.qingfeng.prototype" />
-      <recent name="com.qingfeng.singleton" />
-      <recent name="com.qingfeng.proxy.dynamicProxy" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/images/img1" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MorriganAensland">
-    <configuration name="ClassAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.test1.ClassAdapterTest" />
+  <component name="RunManager" selected="Application.CookingTest">
+    <configuration name="CookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.strategy.practice.CookingTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.adapter.test1.*" />
+          <option name="PATTERN" value="com.qingfeng.strategy.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -104,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DecoratorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.decorator.DecoratorTest" />
+    <configuration name="StrategyTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.strategy.StrategyTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.decorator.*" />
+          <option name="PATTERN" value="com.qingfeng.strategy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,12 +132,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MorriganAensland" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.decorator.practice.MorriganAensland" />
+    <configuration name="StudyAbroadTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.template.practice.StudyAbroadTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.decorator.practice.*" />
+          <option name="PATTERN" value="com.qingfeng.template.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -130,12 +145,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObjectAdapterTest (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.adapter.test2.ObjectAdapterTest" />
+    <configuration name="TemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.template.TemplateTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.adapter.test2.*" />
+          <option name="PATTERN" value="com.qingfeng.template.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -143,12 +158,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.bridge.test1.PhoneTest" />
+    <configuration name="WySpecialtyFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.facade.practice.WySpecialtyFacade" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.bridge.test1.*" />
+          <option name="PATTERN" value="com.qingfeng.facade.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -170,19 +185,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ClassAdapterTest (1)" />
-      <item itemvalue="Application.ObjectAdapterTest (1)" />
-      <item itemvalue="Application.PhoneTest" />
-      <item itemvalue="Application.DecoratorTest" />
-      <item itemvalue="Application.MorriganAensland" />
+      <item itemvalue="Application.WySpecialtyFacade" />
+      <item itemvalue="Application.TemplateTest" />
+      <item itemvalue="Application.StudyAbroadTest" />
+      <item itemvalue="Application.StrategyTest" />
+      <item itemvalue="Application.CookingTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MorriganAensland" />
-        <item itemvalue="Application.DecoratorTest" />
-        <item itemvalue="Application.PhoneTest" />
-        <item itemvalue="Application.ObjectAdapterTest (1)" />
-        <item itemvalue="Application.ClassAdapterTest (1)" />
+        <item itemvalue="Application.CookingTest" />
+        <item itemvalue="Application.StrategyTest" />
+        <item itemvalue="Application.StudyAbroadTest" />
+        <item itemvalue="Application.TemplateTest" />
+        <item itemvalue="Application.WySpecialtyFacade" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +228,9 @@
       <workItem from="1602033358058" duration="1113000" />
       <workItem from="1602122416428" duration="2692000" />
       <workItem from="1602307418818" duration="1397000" />
-      <workItem from="1602316139547" duration="1429000" />
+      <workItem from="1602316139547" duration="1936000" />
+      <workItem from="1602383061892" duration="3208000" />
+      <workItem from="1602391906937" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -245,12 +262,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602316633854">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602400807143">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602316633854" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602400807143" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -267,42 +284,42 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="35" key="GridCell.Tab.0.bottom" timestamp="1602317409042">
+    <state width="1248" height="113" key="GridCell.Tab.0.bottom" timestamp="1602401565822">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="35" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602317409042" />
-    <state width="1248" height="35" key="GridCell.Tab.0.center" timestamp="1602317409042">
+    <state width="1248" height="113" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
+    <state width="1248" height="113" key="GridCell.Tab.0.center" timestamp="1602401565822">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="35" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602317409042" />
-    <state width="1248" height="35" key="GridCell.Tab.0.left" timestamp="1602317409041">
+    <state width="1248" height="113" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
+    <state width="1248" height="113" key="GridCell.Tab.0.left" timestamp="1602401565821">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="35" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602317409041" />
-    <state width="1248" height="35" key="GridCell.Tab.0.right" timestamp="1602317409042">
+    <state width="1248" height="113" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602401565821" />
+    <state width="1248" height="113" key="GridCell.Tab.0.right" timestamp="1602401565822">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="35" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602317409042" />
-    <state width="1248" height="311" key="GridCell.Tab.1.bottom" timestamp="1601795399016">
+    <state width="1248" height="113" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
+    <state width="1248" height="130" key="GridCell.Tab.1.bottom" timestamp="1602317793017">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="311" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
-    <state width="1248" height="311" key="GridCell.Tab.1.center" timestamp="1601795399016">
+    <state width="1248" height="130" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
+    <state width="1248" height="130" key="GridCell.Tab.1.center" timestamp="1602317793017">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="311" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
-    <state width="1248" height="311" key="GridCell.Tab.1.left" timestamp="1601795399016">
+    <state width="1248" height="130" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
+    <state width="1248" height="130" key="GridCell.Tab.1.left" timestamp="1602317793016">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="311" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
-    <state width="1248" height="311" key="GridCell.Tab.1.right" timestamp="1601795399016">
+    <state width="1248" height="130" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1602317793016" />
+    <state width="1248" height="130" key="GridCell.Tab.1.right" timestamp="1602317793017">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="311" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1601795399016" />
-    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1601864752685">
+    <state width="1248" height="130" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1602318081744">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1601864752685" />
+    <state x="208" y="31" width="1022" height="737" key="SettingsEditor/72.27.1294.741@72.27.1294.741" timestamp="1602318081744" />
     <state x="391" y="291" width="646" height="220" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1600236807176">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -311,16 +328,5 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="72" y="27" width="1284" height="599" key="new project wizard/72.27.1294.741@72.27.1294.741" timestamp="1601865983833" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/com/qingfeng/decorator/practice/MorriganAensland.java</url>
-          <line>4</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
