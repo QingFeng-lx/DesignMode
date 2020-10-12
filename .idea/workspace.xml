@@ -20,33 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Facade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialtyFacade.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyA.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/Strategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CookingTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCooking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCookingStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/Kitchen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/SteamedCrabs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/template/TemplateTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty13.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty21.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty23.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/WyImage/Specialty24.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img1/BraisedCrabs.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/images/img1/SteamedCrabs.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,24 +70,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.Observer" />
       <recent name="com.qingfeng.strategy" />
       <recent name="com.qingfeng.facade.practice" />
       <recent name="com.qingfeng.facade" />
       <recent name="com.qingfeng.decorator" />
-      <recent name="com.qingfeng.prototype" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/images/img1" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CookingTest">
+  <component name="RunManager" selected="Application.ObserverTest">
     <configuration name="CookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.strategy.practice.CookingTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qingfeng.strategy.practice.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Observer.ObserverTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.Observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -158,46 +147,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WySpecialtyFacade" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.facade.practice.WySpecialtyFacade" />
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.facade.practice.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.WySpecialtyFacade" />
       <item itemvalue="Application.TemplateTest" />
       <item itemvalue="Application.StudyAbroadTest" />
       <item itemvalue="Application.StrategyTest" />
       <item itemvalue="Application.CookingTest" />
+      <item itemvalue="Application.ObserverTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.CookingTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.StudyAbroadTest" />
         <item itemvalue="Application.TemplateTest" />
-        <item itemvalue="Application.WySpecialtyFacade" />
       </list>
     </recent_temporary>
   </component>
@@ -231,6 +205,7 @@
       <workItem from="1602316139547" duration="1936000" />
       <workItem from="1602383061892" duration="3208000" />
       <workItem from="1602391906937" duration="5766000" />
+      <workItem from="1602460998408" duration="1454000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -262,12 +237,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602400807143">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602461705303">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602400807143" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602461705303" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
