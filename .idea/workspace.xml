@@ -20,10 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/ImportCompany.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RMBrate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RateTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +83,7 @@
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObserverTest">
+  <component name="RunManager" selected="Application.RateTest">
     <configuration name="CookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.strategy.practice.CookingTest" />
       <module name="DesignMode" />
@@ -101,6 +103,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.qingfeng.Observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Observer.practice.RateTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.Observer.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -134,19 +149,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TemplateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.template.TemplateTest" />
-      <module name="DesignMode" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.qingfeng.template.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -159,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.TemplateTest" />
       <item itemvalue="Application.StudyAbroadTest" />
       <item itemvalue="Application.StrategyTest" />
       <item itemvalue="Application.CookingTest" />
       <item itemvalue="Application.ObserverTest" />
+      <item itemvalue="Application.RateTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RateTest" />
         <item itemvalue="Application.ObserverTest" />
         <item itemvalue="Application.CookingTest" />
         <item itemvalue="Application.StrategyTest" />
         <item itemvalue="Application.StudyAbroadTest" />
-        <item itemvalue="Application.TemplateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -205,7 +207,7 @@
       <workItem from="1602316139547" duration="1936000" />
       <workItem from="1602383061892" duration="3208000" />
       <workItem from="1602391906937" duration="5766000" />
-      <workItem from="1602460998408" duration="1454000" />
+      <workItem from="1602460998408" duration="3493000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -237,12 +239,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602461705303">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602463530192">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602461705303" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602463530192" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -259,38 +261,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="113" key="GridCell.Tab.0.bottom" timestamp="1602401565822">
+    <state width="1248" height="235" key="GridCell.Tab.0.bottom" timestamp="1602464542894">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="113" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
-    <state width="1248" height="113" key="GridCell.Tab.0.center" timestamp="1602401565822">
+    <state width="1248" height="235" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602464542894" />
+    <state width="1248" height="235" key="GridCell.Tab.0.center" timestamp="1602464542894">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="113" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
-    <state width="1248" height="113" key="GridCell.Tab.0.left" timestamp="1602401565821">
+    <state width="1248" height="235" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602464542894" />
+    <state width="1248" height="235" key="GridCell.Tab.0.left" timestamp="1602464542893">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="113" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602401565821" />
-    <state width="1248" height="113" key="GridCell.Tab.0.right" timestamp="1602401565822">
+    <state width="1248" height="235" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602464542893" />
+    <state width="1248" height="235" key="GridCell.Tab.0.right" timestamp="1602464542894">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="113" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602401565822" />
-    <state width="1248" height="130" key="GridCell.Tab.1.bottom" timestamp="1602317793017">
+    <state width="1248" height="235" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602464542894" />
+    <state width="1248" height="297" key="GridCell.Tab.1.bottom" timestamp="1602464355324">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="130" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
-    <state width="1248" height="130" key="GridCell.Tab.1.center" timestamp="1602317793017">
+    <state width="1248" height="297" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
+    <state width="1248" height="297" key="GridCell.Tab.1.center" timestamp="1602464355324">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="130" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
-    <state width="1248" height="130" key="GridCell.Tab.1.left" timestamp="1602317793016">
+    <state width="1248" height="297" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
+    <state width="1248" height="297" key="GridCell.Tab.1.left" timestamp="1602464355324">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="130" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1602317793016" />
-    <state width="1248" height="130" key="GridCell.Tab.1.right" timestamp="1602317793017">
+    <state width="1248" height="297" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
+    <state width="1248" height="297" key="GridCell.Tab.1.right" timestamp="1602464355324">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="130" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1602317793017" />
+    <state width="1248" height="297" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1602318081744">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
