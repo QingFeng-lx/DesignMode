@@ -1,5 +1,10 @@
 package com.qingfeng.iterator;
 
+import org.junit.Test;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class AggregateTest {
     public static void main(String[] args) {
         Aggregate aggregate = new ConcreteAggregate();
@@ -14,4 +19,6 @@ public class AggregateTest {
         System.out.println("----------------------------------------");
         System.out.println(iterator.first());
     }
+
+
 }

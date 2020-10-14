@@ -20,15 +20,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/StuEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/TeachEventListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/Aggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/ViewSpotIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpotIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/Mediator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/MediatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/state/ConcreteStateA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/state/Context.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/state/StateTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/卧龙谷.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/彩虹桥.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/晓起村.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/李坑.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/江湾.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/images/iterator/Picture/菊径村.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/Observer/practice/RateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/Observer/practice/RateTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/push.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/iterator/AggregateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DesignMode/com/qingfeng/iterator/AggregateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,23 +81,24 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/images/img1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/iterator" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.qingfeng.mediator" />
+      <recent name="com.qingfeng.state" />
       <recent name="com.qingfeng.Observer" />
       <recent name="com.qingfeng.strategy" />
       <recent name="com.qingfeng.facade.practice" />
-      <recent name="com.qingfeng.facade" />
-      <recent name="com.qingfeng.decorator" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/iterator" />
       <recent name="$PROJECT_DIR$/src/images/img1" />
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AggregateTest">
+  <component name="RunManager" selected="Application.MediatorTest">
     <configuration name="AggregateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.iterator.AggregateTest" />
       <module name="DesignMode" />
@@ -102,12 +112,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BellEventTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Observer.paractice2.BellEventTest" />
+    <configuration name="HuffmanTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test.HuffmanTree" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.Observer.paractice2.*" />
+          <option name="PATTERN" value="test.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CookingTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.strategy.practice.CookingTest" />
+    <configuration name="MediatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.mediator.MediatorTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.strategy.practice.*" />
+          <option name="PATTERN" value="com.qingfeng.mediator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,12 +138,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ObserverTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Observer.ObserverTest" />
+    <configuration name="PictureIterator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.iterator.practice.PictureIterator" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.Observer.*" />
+          <option name="PATTERN" value="com.qingfeng.iterator.practice.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -141,12 +151,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.qingfeng.Observer.practice.RateTest" />
+    <configuration name="StateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.state.StateTest" />
       <module name="DesignMode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.qingfeng.Observer.practice.*" />
+          <option name="PATTERN" value="com.qingfeng.state.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -168,19 +178,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.CookingTest" />
-      <item itemvalue="Application.ObserverTest" />
-      <item itemvalue="Application.RateTest" />
-      <item itemvalue="Application.BellEventTest" />
       <item itemvalue="Application.AggregateTest" />
+      <item itemvalue="Application.PictureIterator" />
+      <item itemvalue="Application.StateTest" />
+      <item itemvalue="Application.HuffmanTree" />
+      <item itemvalue="Application.MediatorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MediatorTest" />
+        <item itemvalue="Application.StateTest" />
+        <item itemvalue="Application.HuffmanTree" />
+        <item itemvalue="Application.PictureIterator" />
         <item itemvalue="Application.AggregateTest" />
-        <item itemvalue="Application.BellEventTest" />
-        <item itemvalue="Application.RateTest" />
-        <item itemvalue="Application.ObserverTest" />
-        <item itemvalue="Application.CookingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +225,9 @@
       <workItem from="1602383061892" duration="3208000" />
       <workItem from="1602391906937" duration="5766000" />
       <workItem from="1602460998408" duration="3493000" />
-      <workItem from="1602469836091" duration="2422000" />
+      <workItem from="1602469836091" duration="4749000" />
+      <workItem from="1602635114566" duration="2358000" />
+      <workItem from="1602655048881" duration="1246000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -247,12 +259,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="commit the singleton" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602472400978">
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602655593462">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602472400978" />
+    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602655593462" />
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1600234373729">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -269,38 +281,38 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="151" key="GridCell.Tab.0.bottom" timestamp="1602470842806">
+    <state width="1248" height="297" key="GridCell.Tab.0.bottom" timestamp="1602656204587">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="151" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602470842806" />
-    <state width="1248" height="151" key="GridCell.Tab.0.center" timestamp="1602470842806">
+    <state width="1248" height="297" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602656204587" />
+    <state width="1248" height="297" key="GridCell.Tab.0.center" timestamp="1602656204586">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="151" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602470842806" />
-    <state width="1248" height="151" key="GridCell.Tab.0.left" timestamp="1602470842806">
+    <state width="1248" height="297" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602656204586" />
+    <state width="1248" height="297" key="GridCell.Tab.0.left" timestamp="1602656204586">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="151" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602470842806" />
-    <state width="1248" height="151" key="GridCell.Tab.0.right" timestamp="1602470842806">
+    <state width="1248" height="297" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602656204586" />
+    <state width="1248" height="297" key="GridCell.Tab.0.right" timestamp="1602656204587">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="151" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602470842806" />
-    <state width="1248" height="297" key="GridCell.Tab.1.bottom" timestamp="1602464355324">
+    <state width="1248" height="297" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602656204587" />
+    <state width="1248" height="297" key="GridCell.Tab.1.bottom" timestamp="1602656205108">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
-    <state width="1248" height="297" key="GridCell.Tab.1.center" timestamp="1602464355324">
+    <state width="1248" height="297" key="GridCell.Tab.1.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602656205108" />
+    <state width="1248" height="297" key="GridCell.Tab.1.center" timestamp="1602656205104">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
-    <state width="1248" height="297" key="GridCell.Tab.1.left" timestamp="1602464355324">
+    <state width="1248" height="297" key="GridCell.Tab.1.center/72.27.1294.741@72.27.1294.741" timestamp="1602656205104" />
+    <state width="1248" height="297" key="GridCell.Tab.1.left" timestamp="1602656205104">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
-    <state width="1248" height="297" key="GridCell.Tab.1.right" timestamp="1602464355324">
+    <state width="1248" height="297" key="GridCell.Tab.1.left/72.27.1294.741@72.27.1294.741" timestamp="1602656205104" />
+    <state width="1248" height="297" key="GridCell.Tab.1.right" timestamp="1602656205107">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1602464355324" />
+    <state width="1248" height="297" key="GridCell.Tab.1.right/72.27.1294.741@72.27.1294.741" timestamp="1602656205107" />
     <state x="208" y="31" width="1022" height="737" key="SettingsEditor" timestamp="1602318081744">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
