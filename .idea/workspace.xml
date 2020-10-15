@@ -20,209 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/memento/Caretaker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/memento/Memento.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/memento/MementoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/memento/Originator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/description.html" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project-template.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DesignMode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DesignMode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteObserver2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ConcreteSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/Observer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/ObserverTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventSource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventSource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/BellEventTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/RingEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/RingEvent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/StuEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/StuEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/TeachEventListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/paractice2/TeachEventListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/Company.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/ExportCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/ExportCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/ImportCompany.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/ImportCompany.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RMBrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RMBrate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/Rate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/Rate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/Observer/practice/RateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/ClassAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/ObjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/ObjectAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/ObjectAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/ObjectAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/object/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ElectricMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/Motor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/Motor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/MotorAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/MotorAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalMotor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/OpticalMotor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/practice/ReadXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/ClassAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test1/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/Adaptee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/Adaptee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/ObjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/ObjectAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/ObjectAdapterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/ObjectAdapterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/Target.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/adapter/test2/Target.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/Abstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/Abstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/BridgeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/BridgeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/ConcreateImplementorB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/Implementor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/Implementor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/RefinedAbstraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/RefinedAbstraction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Bag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Bag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/BagManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/BagManage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/HandBag.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/HandBag.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/ReadXML.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/ReadXML.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Red.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Red.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Wallet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Wallet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Yellow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/practice/Yellow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Args.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Args.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk_64G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Disk_64G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/HuaWeiplus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/HuaWeiplus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Iphone8plus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Iphone8plus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Memory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Memory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Memory_6G.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Memory_6G.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/NormalSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/NormalSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Phone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Phone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/PhoneTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/PhoneTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/PlusSize.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/PlusSize.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/RedColor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/RedColor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Size.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/bridge/test1/Size.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/ConcreteBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/ConcreteBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Builder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/study/ConcreateBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/ConcreateBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Director.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Director.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/builder/study/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/Component.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/Component.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/ConcreteDecorator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/Decorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/DecoratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/DecoratorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Changer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Changer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Girl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Girl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Morrigan.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Morrigan.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/MorriganAensland.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/MorriganAensland.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Original.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Original.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Succubus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/decorator/practice/Succubus.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/Facade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Facade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/Subsystem3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty8.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/Specialty8.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialtyFacade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/facade/practice/WySpecialtyFacade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/Aggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/Aggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/ConcreteAggregate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/ConcreteAggregate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/ConcreteIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/ConcreteIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/Iterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/Iterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/PictureFrame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/PictureFrame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/PictureIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/PictureIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/ViewSpotIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/ViewSpotIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/ViewSpotSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/ViewSpotSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpot.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpot.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpotIterator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpotIterator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpotSet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/practice/WyViewSpotSet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/Colleague.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/Colleague.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteColleague4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteMediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/ConcreteMediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/Mediator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/Mediator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/mediator/MediatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/mediator/MediatorTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/Circle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Circle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Rectangle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeCache.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeCache.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/ShapeTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/prototype/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/prototype/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/ITeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/ITeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/ProxyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/ProxyFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/dynamicProxy/TeacherDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/Client.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/ITeacherDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/ITeacherDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/TeacherDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/TeacherDaoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/TeacherDaoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/staticProxy/TeacherDaoProxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Proxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Proxy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/RealSubject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/RealSubject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Subject.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/Subject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/SubjectTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/proxy/study1/SubjectTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObject7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectTest7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread6.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread6.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/singleton/MyObjectThread7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/state/ConcreteStateA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/state/ConcreteStateA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/state/ConcreteStateB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/state/ConcreteStateB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/state/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/state/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/state/State.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/state/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/state/StateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/state/StateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/ConcreteStrategyB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/Context.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/Context.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/Strategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/Strategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/StrategyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/StrategyTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/BraisedCrabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/BraisedCrabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CookingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CookingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCooking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCooking.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCookingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/CrabCookingStrategy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/Kitchen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/Kitchen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/SteamedCrabs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/strategy/practice/SteamedCrabs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/AbstractClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/AbstractClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/ConcreteClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/ConcreteClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/TemplateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/TemplateTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyAbroad.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyAbroad.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyAbroadTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyAbroadTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyInAmerica.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/template/practice/StudyInAmerica.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AllTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test2/ListNode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test2/ListNode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test2/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/test2/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test2/ListNode.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/test2/Solution.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -384,7 +183,7 @@
       <workItem from="1602635114566" duration="2358000" />
       <workItem from="1602655048881" duration="1246000" />
       <workItem from="1602723331897" duration="137000" />
-      <workItem from="1602731257892" duration="757000" />
+      <workItem from="1602731257892" duration="1299000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -430,6 +229,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="420" y="145" width="578" height="520" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/72.27.1294.741@72.27.1294.741" timestamp="1600234373729" />
+    <state x="452" y="144" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602732558550">
+      <screen x="72" y="27" width="1294" height="741" />
+    </state>
+    <state x="452" y="144" width="524" height="514" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/72.27.1294.741@72.27.1294.741" timestamp="1602732558550" />
     <state x="502" y="155" width="424" height="491" key="FileChooserDialogImpl" timestamp="1602723456976">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
@@ -442,22 +245,22 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="508" y="60" width="412" height="682" key="Github.UntrackedFilesDialog/72.27.1294.741@72.27.1294.741" timestamp="1596459259723" />
-    <state width="1248" height="297" key="GridCell.Tab.0.bottom" timestamp="1602656204587">
+    <state width="1240" height="167" key="GridCell.Tab.0.bottom" timestamp="1602732237760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602656204587" />
-    <state width="1248" height="297" key="GridCell.Tab.0.center" timestamp="1602656204586">
+    <state width="1240" height="167" key="GridCell.Tab.0.bottom/72.27.1294.741@72.27.1294.741" timestamp="1602732237760" />
+    <state width="1240" height="167" key="GridCell.Tab.0.center" timestamp="1602732237760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602656204586" />
-    <state width="1248" height="297" key="GridCell.Tab.0.left" timestamp="1602656204586">
+    <state width="1240" height="167" key="GridCell.Tab.0.center/72.27.1294.741@72.27.1294.741" timestamp="1602732237760" />
+    <state width="1240" height="167" key="GridCell.Tab.0.left" timestamp="1602732237760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602656204586" />
-    <state width="1248" height="297" key="GridCell.Tab.0.right" timestamp="1602656204587">
+    <state width="1240" height="167" key="GridCell.Tab.0.left/72.27.1294.741@72.27.1294.741" timestamp="1602732237760" />
+    <state width="1240" height="167" key="GridCell.Tab.0.right" timestamp="1602732237760">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
-    <state width="1248" height="297" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602656204587" />
+    <state width="1240" height="167" key="GridCell.Tab.0.right/72.27.1294.741@72.27.1294.741" timestamp="1602732237760" />
     <state width="1248" height="297" key="GridCell.Tab.1.bottom" timestamp="1602656205108">
       <screen x="72" y="27" width="1294" height="741" />
     </state>
