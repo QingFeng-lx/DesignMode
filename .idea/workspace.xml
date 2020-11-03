@@ -20,8 +20,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d06b2131-3410-49d9-89d4-db73cc83ecd1" name="Default Changelist" comment="commit the singleton">
-      <change beforePath="$PROJECT_DIR$/src/test/test2/ListNode.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/test2/Solution.java" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/ConcreteElementA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/ConcreteElementB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/ConcreteVisitorA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/ConcreteVisitorB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/ObjectStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/Visitor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/qingfeng/visitor/VisitorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/qingfeng/iterator/AggregateTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/AllTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/AllTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,7 +74,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../DataStructure" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
@@ -82,7 +91,7 @@
       <recent name="$PROJECT_DIR$/src/images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MementoTest">
+  <component name="RunManager" selected="Application.VisitorTest">
     <configuration name="AggregateTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.qingfeng.iterator.AggregateTest" />
       <module name="DesignMode" />
@@ -124,6 +133,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="VisitorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.qingfeng.visitor.VisitorTest" />
+      <module name="DesignMode" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.qingfeng.visitor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -139,12 +161,14 @@
       <item itemvalue="Application.AggregateTest" />
       <item itemvalue="Application.PictureIterator" />
       <item itemvalue="Application.MementoTest" />
+      <item itemvalue="Application.VisitorTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.VisitorTest" />
+        <item itemvalue="Application.AggregateTest" />
         <item itemvalue="Application.MementoTest" />
         <item itemvalue="Application.PictureIterator" />
-        <item itemvalue="Application.AggregateTest" />
       </list>
     </recent_temporary>
   </component>
@@ -184,6 +208,8 @@
       <workItem from="1602655048881" duration="1246000" />
       <workItem from="1602723331897" duration="137000" />
       <workItem from="1602731257892" duration="1299000" />
+      <workItem from="1604369509210" duration="343000" />
+      <workItem from="1604371455047" duration="1440000" />
     </task>
     <task id="LOCAL-00001" summary="commit the singleton">
       <created>1600235846312</created>
@@ -219,9 +245,10 @@
       <screen x="72" y="27" width="1294" height="741" />
     </state>
     <state x="177" y="55" width="1084" height="708" key="#com.intellij.execution.impl.EditConfigurationsDialog/72.27.1294.741@72.27.1294.741" timestamp="1602731346887" />
-    <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1602731761199">
-      <screen x="72" y="27" width="1294" height="741" />
+    <state x="540" y="85" width="565" height="603" key="#com.intellij.ide.util.MemberChooser" timestamp="1604372128767">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="540" y="85" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1604372128767" />
     <state x="444" y="87" key="#com.intellij.ide.util.MemberChooser/72.27.1057.583@72.27.1057.583" timestamp="1601515344453" />
     <state x="445" y="87" width="565" height="473" key="#com.intellij.ide.util.MemberChooser/72.27.1061.587@72.27.1061.587" timestamp="1601430040884" />
     <state x="527" y="103" width="565" height="603" key="#com.intellij.ide.util.MemberChooser/72.27.1294.741@72.27.1294.741" timestamp="1602731761199" />

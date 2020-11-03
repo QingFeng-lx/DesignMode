@@ -1,9 +1,6 @@
 package com.qingfeng.iterator;
 
-import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.List;
 
 public class AggregateTest {
     public static void main(String[] args) {
